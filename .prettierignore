@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+dist
+build
+coverage
+*.min.js
+*.min.css
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+.git
+
+# generated from tokens.json — exact-match checked by check:design-system
+docs/redesign/DESIGN-SYSTEM.md
+app/redesign-tokens.css

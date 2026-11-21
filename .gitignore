@@ -1,0 +1,103 @@
+# Docs (throwaway specs/plans — never committed)
+/docs/superpowers
+
+
+# Imagine Explore: raw team drop. Built output lives in public/imagine/ (committed).
+/imagine-drop
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/.next-husky/
+/out/
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+.env
+
+# NPM and PNPM config with tokens
+.npmrc
+.pnpmrc
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lighthouse CI
+.lighthouseci
+lighthouse-summary.md
+lighthouse-index.html
+lighthouse-output.txt
+lhci-*.json
+35c463abdf4c80f3f566df565a9294ecc9b8166a6db9569e16fd6296b5442595.json
+.swagger-mcp
+
+certs/*
+
+.playwright-mcp
+
+# Design-verify scratch (figma dumps, reference screenshots, built captures)
+.design-cache/
+
+# Sentry Config File
+.env.sentry-build-plugin
+
+.vscode/
+.pixel-diff/
+
+# Redesign workflow run artifacts — regenerable from Figma + code, never committed
+.redesign/
+docs/specs/
+
+# docs/redesign: only canonical process/design-system docs are committed
+docs/redesign/*
+!docs/redesign/DECISIONS.md
+!docs/redesign/DESIGN-SYSTEM.md
+!docs/redesign/PROCESS.md
+!docs/redesign/RETRO.md
+!docs/redesign/tokens.json
+
+.design-cache/*
+
+# Playwright interactive-validate session state (auth cookies/localStorage — never commit)
+.auth/
+.claude/*
